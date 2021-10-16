@@ -1,0 +1,519 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*==================
+Menu css start
+==================*/
+
+
+#menu img {
+    padding-bottom: 2px;
+}
+#menu .bg-light {
+    background-color: #ffffff!important;
+    border: 2px solid red;
+}
+#menu .navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: bold;
+}
+#menu .navbar-light .navbar-nav .nav-link:hover {
+    color: red;
+}
+#menu .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255 0 0 / 90%);
+}
+
+#menu .btn-outline-success {
+    padding-bottom: -4px;
+}
+#menu .btn-outline-success:hover {
+    background-color: #3800ff;
+}
+#menu .dropdown-item {
+    font-weight: bold;
+    font-size: 16px;
+}
+#menu .dropdown-item:hover {
+    color: red;
+}
+
+#menu .form-control {
+    width: 50%;
+    font-size: 16px;
+}
+#menu .signinbtn {
+    color: whitesmoke;
+    background-color: blue;
+}
+#menu .btn-primary {
+    padding: 7px 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#menu .btn {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/*==================
+notice area css start
+==================*/
+#notice-area{
+    background-color: red;
+    color: white;
+}
+
+#notice-area .col-md-3 {
+    padding: 9px 0px 0px 33px;
+    font-size: 19px;
+    width: 22%;
+    background-color: blue;
+    margin-left: 16px;
+}
+
+#notice-area .col-md-9 {
+    padding: 9px 0px 0px 0px;
+    font-size: 19px;
+    color: white;
+}
+
+#notice-area marquee {
+    
+}
+
+
+
+/*==================
+slider css start
+==================*/
+
+#slider img{
+    height: 550px;
+}
+
+#slider .carousel-caption{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    opacity: .8;
+    margin-bottom: 185px;
+    box-shadow: 0px 2px 10px 3px;
+}
+
+
+#slider .carousel-indicators [data-bs-target] {
+    width: 25px;
+    height: 25px;
+    padding: 0px;
+    border-radius: 100%;
+    background-color: darkblue;
+}
+#slider h5{
+    text-decoration: underline;
+}
+
+/*==================
+about css start
+==================*/
+
+#about-us{
+    background-color: #f2ffc5;
+    padding-bottom: 8%;
+    padding: 40px 115px 96px 63px;
+}
+#about-us h3{
+    padding-bottom: 10px;
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#about-us img{
+    width: 72%;
+    margin-left: 10%;
+    height: 80%;
+    margin-top: 10px;
+    border: 2px solid blue;
+    border-radius: 100%;
+
+}
+
+#about-us p{
+    text-align: justify;
+}
+
+/*==================
+our Skills css start
+==================*/
+
+#our-skills{
+     padding: 5%;
+    background-color: #eaffa3;
+}
+
+#our-skills h3{
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+
+#our-skills .progress{
+    background-color: white;
+}
+
+#our-skills b, strong {
+    font-weight: bolder;
+    color: brown;
+}
+
+#our-skills .progress-box{
+    box-shadow: 0px 0px 10px 0px blue;
+    padding: 5%;
+}
+
+
+
+/*==================
+our works css start
+==================*/
+
+#our-works {
+    padding: 5%;
+    background-color: whitesmoke;
+}
+
+#our-works h3{
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: sans-serif;
+}
+
+/* ---- button ---- */
+
+.button {
+  display: inline-block;
+  padding: 0.5em 1.0em;
+  background: #EEE;
+  border: none;
+  border-radius: 7px;
+  background-image: linear-gradient( to bottom, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2) );
+  color: #222;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-shadow: 0 1px white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #8CF;
+  text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
+  color: #222;
+}
+
+.button:active,
+.button.is-checked {
+  background-color: #28F;
+}
+
+.button.is-checked {
+  color: white;
+  text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
+}
+
+.button:active {
+  box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+/* ---- button-group ---- */
+
+.button-group {
+  margin: 20px 20px 10px 120px;
+}
+
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.button-group .button {
+  float: left;
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 1px;
+}
+
+.button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }
+.button-group .button:last-child { border-radius: 0 0.5em 0.5em 0; }
+
+/* ---- isotope ---- */
+
+.grid {
+  border: 1px solid #333;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .element-item ---- */
+
+.element-item {
+  position: relative;
+  float: left;
+  width: 32.93%;
+  height: 300px;
+  margin: 2px;
+}
+.element-item img{
+    height: 100%;
+    width: 100%;
+}
+.element-item img:hover{
+    opacity: .8;
+    background-color: black;
+    box-shadow: 0px 5px 5px 0px #000;
+}
+
+.element-item > * {
+  margin: 0;
+  padding: 0;
+}
+
+.element-item .name {
+  position: absolute;
+
+  left: 10px;
+  top: 60px;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.element-item .symbol {
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  font-size: 42px;
+  font-weight: bold;
+  color: white;
+}
+
+.element-item .number {
+  position: absolute;
+  right: 8px;
+  top: 5px;
+}
+
+.element-item .weight {
+  position: absolute;
+  left: 10px;
+  top: 76px;
+  font-size: 12px;
+}
+
+/*==================
+Team Member Area CSS
+===================*/
+#team-member {
+    background-color: #f8e5ff;
+}
+#team-member .team-list img {
+  width: 50%;
+}
+
+#team-member .team-list .content {
+  width: 50%;
+}
+
+#team-member .team-list .content .follow {
+  position: absolute;
+  bottom: 24px;
+}
+
+#team-member .team-list:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+#team-member .team, .team-list {
+  -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+}
+
+#team-member .team .content .title, .team-list .content .title {
+  font-size: 18px;
+}
+
+#team-member .team .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#team-member .team .member-position, .team .team-social {
+  position: absolute;
+  bottom: -35px;
+  right: 0;
+  left: 0;
+  margin: auto 10%;
+  z-index: 99;
+}
+
+#team-member .team .team-social {
+  bottom: 40px;
+  opacity: 0;
+  -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+}
+
+#team-member .team:hover {
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+#team-member .team:hover .overlay {
+  opacity: 0.6;
+}
+
+#team-member .team:hover .team-social {
+  opacity: 1;
+}
+
+#team-member @media (max-width: 768px) {
+  .team-list img,
+  .team-list .content {
+    width: 100%;
+    float: none !important;
+  }
+  .team-list img .follow,
+  .team-list .content .follow {
+    position: relative;
+    bottom: 0;
+  }
+}
+
+#team-member .social-icon.social li a {
+    color: #adb5bd;
+    border-color: #adb5bd;
+}
+#team-member .social-icon li a {
+    color: #35404e;
+    border: 1px solid #35404e;
+    display: inline-block;
+    height: 32px;
+    text-align: center;
+    font-size: 15px;
+    width: 32px;
+    line-height: 30px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    overflow: hidden;
+    position: relative;
+}
+#team-member .rounded {
+    border-radius: 5px !important;
+}
+
+#team-member .para-desc {
+    max-width: 600px;
+}
+#team-member .text-muted {
+    color: #8492a6 !important;
+}
+
+#team-member .section-title .title {
+    letter-spacing: 0.5px;
+    font-size: 30px;
+    padding-top: 50px;
+    color: blue;
+    text-decoration: underline;
+
+}
+
+
+
+
+/*==================
+contact us css start
+==================*/
+
+#contact-us{
+    padding: 5% 10%;
+    background-color: #9effe6;
+
+}
+#contact-us h3{
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+
+#contact-us .address{
+    padding: 30px;
+    box-shadow: 2px 3px 9px darkred;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+#contact-us .address p{
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+
+#contact-us .form{
+    padding: 30px;
+    background-color: #fee6e6;
+    box-shadow: 2px 3px 9px blue;
+    border-radius: 20px;
+}
+
+/*==================
+footer us css start
+==================*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: red;
+}
+
+.footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 2% 20%;
+}
