@@ -1,8 +1,30 @@
 # Landing Page Design
-. It's a self project. I designed this website for personal practice. When I did this project, then I got more knowledge about bootstrap. It's very powerfull framework for website development. Besides I got more idea about website development. I designed this website just using three languages html, css, javascript and more.
 
-# Demo Website
-If you want to see demo of my website development then please visit this link https://chinmayroy.github.io/landing_page_for_basic_design/
+This is a landing page designed as a self project for personal practice. The website was created using HTML, CSS, and JavaScript. I utilized the Bootstrap framework to enhance the website's functionality and design.
+## Demo Website
 
-# Conclusion
-I got more knowledge after doing this project. If anyone want to increament this project then please contact me. I will help you for your next procedure.
+To see the demo of my website development, please visit this link: https://chinmayroy.github.io/design_landing_page/
+## Features
+
+This landing page includes the following features:
+
+- Responsive design that adjusts to different screen sizes
+- Navigation bar with dropdown menu
+- Call-to-action button with hover effect
+- Testimonial section with carousel
+- Contact form with validation
+
+## Installation
+
+To view the code and run the website locally, you can follow these steps:
+
+    Clone the repository: git clone https://github.com/chinmayroy/design_landing_page.git
+    Open the project in your preferred code editor
+    Open the index.html file in your browser
+
+## Contributing
+
+If you're interested in contributing to this project or building upon it, please feel free to contact me. I would be happy to assist you with the next steps.
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
